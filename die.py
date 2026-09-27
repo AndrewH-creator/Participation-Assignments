@@ -8,3 +8,10 @@ class Die:
     def roll_die(self):
         return random.randint(1, self.sides)
 
+die6 = Die()
+
+print("6-sided die:")
+
+for roll in range(10):
+    print(die6.roll_die())
+
