@@ -15,3 +15,10 @@ print("6-sided die:")
 for roll in range(10):
     print(die6.roll_die())
 
+die10 = Die(10)
+
+print("\n10-sided die:")
+
+for roll in range(10):
+    print(die10.roll_die())
+
